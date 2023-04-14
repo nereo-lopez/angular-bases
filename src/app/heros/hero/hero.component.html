@@ -1,0 +1,25 @@
+<h1>{{ name }}</h1>
+
+
+<dl>
+  <td> Name: </td>
+  <dd> {{ name }} </dd>
+
+  <td> Role: </td>
+  <dd> {{ role }} </dd>
+
+  <td> Function: </td>
+  <dd> {{ getName() }} </dd>
+
+  <td> Capitalized: </td>
+  <dd> {{ upperCaseName }} </dd>
+
+</dl>
+
+<button (click) = "changeName()">
+  Change hero.
+</button>
+
+<button (click) = "changeRole()">
+  Change role.
+</button>
